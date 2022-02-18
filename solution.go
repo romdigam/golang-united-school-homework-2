@@ -21,7 +21,7 @@ func CalcSquare(sideLen float64, sidesNum int8) float64 {
 	case 0:
 		return sideLen * sideLen * math.Pi
 	case 3:
-		return (sideLen * sideLen) / 2
+		return (sideLen * sideLen) / 2.0
 	case 4:
 		return sideLen * sideLen
 	default:
